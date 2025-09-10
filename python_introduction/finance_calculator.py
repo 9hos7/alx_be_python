@@ -3,7 +3,7 @@ monthly_expense = int(input("Enter your monthly expense: "))
 
 monthly_savings = monthly_income - monthly_expense
 
-annual_interest = 5/100
+annual_interest = 5
 
 annual_savings = monthly_savings * 12 + (monthly_savings * 12 * 0.05)
 
