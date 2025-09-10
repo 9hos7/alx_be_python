@@ -5,7 +5,7 @@ monthly_savings = monthly_income - monthly_expense
 
 annual_interest = 5/100
 
-annual_savings = monthly_savings * 12 + (monthly_savings * 12 * annual_interest)
+annual_savings = monthly_savings * 12 + (monthly_savings * 12 * 0.05)
 
 print(f'Your monthly savings are ${monthly_savings}')
 
