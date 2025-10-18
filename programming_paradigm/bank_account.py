@@ -7,6 +7,14 @@ class BankAccount:
         return self.account_balance
 
     def withdraw(self, amount):
+        """withdraw
+
+        Args:
+            amount (number): _description_
+
+        Returns:
+            _type_: _description_
+        """
         if amount <= self.account_balance:
             self.account_balance -= amount
             return True
